@@ -9,9 +9,9 @@ int main() {
     printf("Digite o raio do círculo: ");
     scanf("%f", &raio);
 
-    area = (raio * raio) * 3,14159;
+    area = (raio * raio) * 3.14159;
 
-    printf("Um círculo com raio %.2f tem área igual a %.4f", raio, area);
+    printf("Um círculo com raio %.2f tem área igual a %.2f", raio, area);
 
     return 0;
     
