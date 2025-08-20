@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <tgmath.h>
+#include <math.h>
 
 int main() {
 
@@ -9,7 +9,7 @@ int main() {
     printf("Digite o raio do círculo: ");
     scanf("%f", &raio);
 
-    area = (raio * raio) * ;
+    area = (raio * raio) * 3,14159;
 
     printf("Um círculo com raio %.2f tem área igual a %.4f", raio, area);
 
