@@ -14,7 +14,7 @@ int main(){
 
     float h = sqrt(cat1*cat1 + cat2*cat2);
     
-    printf("Um triângulo retângulo com lados %.2f e %.2f tem uma hipotenusa igual a %.2f",cat1,cat2,h);
+    printf("Um triangulo retangulo com lados %.2f e %.2f tem uma hipotenusa igual a %.2f",cat1,cat2,h);
 
     return 0;
 }

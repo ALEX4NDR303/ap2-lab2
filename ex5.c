@@ -3,15 +3,15 @@
 
 int main() {
 
-    printf("Calculadora de área de círculo");
+    printf("Calculadora de area de circulo");
     float raio, area;
 
-    printf("Digite o raio do círculo: ");
+    printf("Digite o raio do circulo: ");
     scanf("%f", &raio);
 
     area = (raio * raio) * 3.14159;
 
-    printf("Um círculo com raio %.2f tem área igual a %.2f", raio, area);
+    printf("Um circulo com raio %.2f tem area igual a %.2f", raio, area);
 
     return 0;
     
